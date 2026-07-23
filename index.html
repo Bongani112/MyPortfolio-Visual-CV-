@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bongani Dlamini | Virtual CV & Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">My<span>Portfolio</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="assets/WhatsApp Image 2026-07-21 at 12.01.06.jpeg" alt="Professional portrait of Bongani Dlamini, IT specialist and software developer.">
+            </div>
+
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1>Bongani Dlamini</h1>
+                <h2>IT Specialist & Software Developer</h2>
+                
+                <p id="typed-text" class="hero-bio"></p>
+
+                <div class="hero-buttons">
+                    <a href="assets/cv.pdf" download class="btn primary-btn"><i class="fa-solid fa-download"></i> Download CV</a>
+                    <a href="#projects" class="btn secondary-btn"><i class="fa-solid fa-code"></i> View Projects</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>
+                    I am a dedicated IT final-year student driven by solving complex technological challenges. My expertise spans network architecture simulation (VLANs, multi-tier designs), software development, and database systems.
+                </p>
+                <p>
+                    I excel in building dynamic applications and designing reliable infrastructure. I am focused on continuous learning, collaborating on impactful tech projects, and creating efficient digital solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-alt">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-solid fa-code skill-icon"></i>
+                <h3>Web Development</h3>
+                <p>HTML5, CSS3, JavaScript, Responsive Web Design, REST APIs</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-network-wired skill-icon"></i>
+                <h3>Networking & IoT</h3>
+                <p>Cisco Packet Tracer, VLAN Configuration, 2-Tier Architecture, Home Gateways</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-database skill-icon"></i>
+                <h3>Data & Analytics</h3>
+                <p>Power BI, DAX, SQL, Data Modeling & Visualization</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-screwdriver-wrench skill-icon"></i>
+                <h3>Tools & Version Control</h3>
+                <p>Git, GitHub, VS Code, Linux Basics</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Full-Stack Web Application</h3>
+                    <p>Collaborative full-stack web application featuring dynamic user interfaces, interactive forms, and structured version control workflows.</p>
+                    <div class="tags">
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                        <span>Git/GitHub</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/YOUR_USERNAME/YOUR_GROUP_REPO" target="_blank"><i class="fa-brands fa-github"></i> GitHub Repository</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Enterprise Network Simulation</h3>
+                    <p>Designed and simulated a multi-functional office network topology utilizing Cisco Packet Tracer, including VLAN segmentation and collapsed core architecture.</p>
+                    <div class="tags">
+                        <span>Networking</span>
+                        <span>Packet Tracer</span>
+                        <span>VLANs</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/YOUR_USERNAME/network-simulation-repo" target="_blank"><i class="fa-brands fa-github"></i> Repository</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Personal Virtual CV Portfolio</h3>
+                    <p>Dynamic, responsive Virtual CV hosted live on GitHub Pages featuring interactive dark mode toggling and seamless layout responsiveness.</p>
+                    <div class="tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/YOUR_USERNAME/virtual-cv" target="_blank"><i class="fa-brands fa-github"></i> Code Repository</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="resume" class="section bg-alt">
+        <h2 class="section-title">Education & Timeline</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Current</span>
+                    <h3> BSc in Information Technology</h3>
+                    <p>Final-Year Student | Focusing on Web Development, Software Engineering, and Enterprise Networking.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Completed</span>
+                    <h3>National Senior Certificate (NSC)</h3>
+                    <p>Focused on Mathematics and Physical Sciences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Email: <a href="mailto:bongani.dlamini@example.com">dbongani662@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p>LinkedIn: <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">linkedin.com/in/bonganidlamini</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-brands fa-github"></i>
+                    <p>GitHub: <a href="https://github.com/YOUR_USERNAME" target="_blank">github.com/Bongani112</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Bongani Dlamini. Built for Profile Development Assignment.</p>
+    </footer>
+
+    <button id="chatbot-toggle" aria-label="Open AI Assistant">
+        <i class="fa-solid fa-robot"></i>
+    </button>
+
+    <div id="chatbot-window" class="chatbot-window hidden">
+        <div class="chatbot-header">
+            <div class="chatbot-title">
+                <i class="fa-solid fa-robot"></i>
+                <span>Bongani's Portfolio AI</span>
+            </div>
+            <button id="chatbot-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div id="chatbot-messages" class="chatbot-messages">
+            <div class="message bot">
+                Hello! I'm Bongani's Virtual AI assistant. Ask me about his projects, skills, or how to download his CV!
+            </div>
+        </div>
+        <div class="chatbot-input-container">
+            <input type="text" id="chatbot-input" placeholder="Type 'CV', 'Projects', or 'Skills'..." />
+            <button id="chatbot-send"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
