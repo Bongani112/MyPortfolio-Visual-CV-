@@ -131,7 +131,7 @@ a {
     border-radius: 2px;
 }
 
-/* --- Hero Layout & Alignment --- */
+/* Hero Layout & Alignment  */
 .hero {
     min-height: 85vh;
     display: flex;
@@ -149,7 +149,7 @@ a {
     max-width: 1200px;
 }
 
-/* --- Hero Buttons Spacing Fix --- */
+/*  Hero Buttons Spacing Fix  */
 .hero-buttons {
     display: flex;
     gap: 1.25rem;
@@ -170,7 +170,7 @@ a {
     transition: all 0.3s ease;
 }
 
-/* --- Fixed Image Container --- */
+/*  Fixed Image Container  */
 .hero-image {
     flex: 0 0 320px;
     height: 320px;
@@ -447,7 +447,7 @@ footer {
     }
 }
 
-/* --- Floating AI Chatbot Widget --- */
+/*  Floating AI Chatbot Widget  */
 #chatbot-toggle {
     position: fixed;
     bottom: 25px;
