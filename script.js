@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     typeWriter();
 });
 
-// --- AI Chatbot Assistant Script ---
+//  AI Chatbot Assistant Script
 const chatbotToggle = document.getElementById('chatbot-toggle');
 const chatbotWindow = document.getElementById('chatbot-window');
 const chatbotClose = document.getElementById('chatbot-close');
@@ -97,7 +97,7 @@ function addMessage(text, sender) {
 // Portfolio Knowledge Base Response Engine
 function generateAIResponse(query) {
     if (query.includes('cv') || query.includes('resume') || query.includes('download')) {
-        return `You can download Bongani's full CV directly by <a href="assets/cv.pdf" download style="color: #60a5fa; text-decoration: underline;">clicking here</a>, or view the <a href="#resume" onclick="closeChat()" style="color: #60a5fa;">Resume Section</a>.`;
+        return `You can download Bongani's full CV directly by <a href="Bongani_CV.pdf" download style="color: #60a5fa; text-decoration: underline;">clicking here</a>, or view the <a href="#resume" onclick="closeChat()" style="color: #60a5fa;">Resume Section</a>.`;
     } 
     else if (query.includes('project') || query.includes('work') || query.includes('github')) {
         document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' });
