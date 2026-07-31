@@ -22,4 +22,5 @@ CSS3: Custom styles, CSS variables, keyframe animations, and media queries.
 JavaScript (Vanilla ES6+): DOM manipulation, AI logic engine, dark mode persistence, and typing effects.
 FontAwesome: Scalable iconography.
 GitHub Pages: Production hosting and deployment.
+Vercel: Hosting
 
