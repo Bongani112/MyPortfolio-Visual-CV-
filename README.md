@@ -4,7 +4,7 @@ A dynamic, interactive, and fully responsive personal Virtual CV built to showca
 Live Demo:
 
 Check out the live interactive website here:  
-[View Live Virtual CV]: (  https://bongani112.github.io/MyPortfolio-Visual-CV-/)
+[View Live Virtual CV]: (https://my-portfolio-visual-cv.vercel.app/)
 
 Features & Functionalities
 
